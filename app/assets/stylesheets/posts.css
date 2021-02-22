@@ -1,0 +1,16 @@
+.post{
+  border: 1px solid;
+  width: 40%;
+  margin-top: 30px;
+}
+
+.post-date{
+  color: gray;
+}
+
+
+ビューファイルが存在するディレクトリが正しくないため。
+app/views/posts/index.html.erb
+
+
+findで取得した単一のレコードに対して、eachを適用しているため。
